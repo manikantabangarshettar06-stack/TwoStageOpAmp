@@ -28,8 +28,8 @@ The differential stage processes the input voltage difference, while the second 
 | Parameter | Simulated Value |
 |-----------|-----------------|
 | DC Gain | 44 dB |
-| Phase Margin | 114° |
-| Unity-Gain Bandwidth | 15 MHz |
+| Phase Margin | 98° |
+| Unity-Gain Bandwidth | 16.27 MHz |
 | Slew Rate | 10.9 V/µs |
 | Power Consumption | 198 µW |
 
@@ -71,4 +71,4 @@ The AC response of the two-stage CMOS operational amplifier, showing its gain an
 
 ![AC Response](ac_response.png)
 
-The simulated low-frequency gain is approximately 44 dB, with a phase margin of 114° at the unity-gain crossover frequency.
+The simulated low-frequency gain is approximately 44 dB, with a phase margin of 98° at the unity-gain crossover frequency.

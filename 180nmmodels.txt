@@ -1,0 +1,17 @@
+* 180nm Generic PTM Transistor Models (BSIM3v3)
+.model nmos nmos (level=49 version=3.1 mobmod=1 capmod=2 noimod=1
++ tox=4.0n xj=6.0n-8 lint=1.5n-8 wint=0.0 dl=0.0 dw=0.0 vth0=0.40
++ k1=0.45 k2=0.01 k3=0.0 u0=450.0 ua=6.0e-10 ub=1.2e-18 uc=0.0
++ vsat=9.0e4 a0=1.0 ags=0.2 b0=0.0 b1=0.0 rdsw=150.0 prwg=0.0
++ prwb=0.0 wr=1.0 wint=0.0 nfactor=1.0 cit=0.0 cdsc=0.0 cdscb=0.0
++ stage=0.0 eta0=0.08 etab=0.0 dsub=0.56 scl=0.0 cgdo=3.0e-10
++ cgso=3.0e-10 cgbo=5.0e-11 cj=1.0e-3 mj=0.5 pb=0.8 cjsw=2.0e-10
++ mjsw=0.33 pbsw=0.8)
+.model pmos pmos (level=49 version=3.1 mobmod=1 capmod=2 noimod=1
++ tox=4.0n xj=6.0n-8 lint=1.5n-8 wint=0.0 dl=0.0 dw=0.0 vth0=-0.42
++ k1=0.48 k2=0.01 k3=0.0 u0=150.0 ua=7.0e-10 ub=1.5e-18 uc=0.0
++ vsat=8.5e4 a0=1.0 ags=0.2 b0=0.0 b1=0.0 rdsw=280.0 prwg=0.0
++ prwb=0.0 wr=1.0 wint=0.0 nfactor=1.1 cit=0.0 cdsc=0.0 cdscb=0.0
++ stage=0.0 eta0=0.09 etab=0.0 dsub=0.60 scl=0.0 cgdo=3.2e-10
++ cgso=3.2e-10 cgbo=5.0e-11 cj=1.2e-3 mj=0.5 pb=0.8 cjsw=2.5e-10
++ mjsw=0.35 pbsw=0.8)

@@ -59,5 +59,3 @@ These values are based on simulation and depend on the circuit configuration and
 - Analysis of amplifier stability and transient performance.
 - Understanding of gain, bandwidth, slew rate, and power trade-offs.
 
-## Author
-Analog Electronics and CMOS Circuit Design Project

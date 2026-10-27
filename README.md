@@ -64,3 +64,11 @@ These values are based on simulation and depend on the circuit configuration and
 The complete two-stage CMOS operational amplifier schematic implemented in LTspice.
 
 ![Two-Stage CMOS Op-Amp Schematic](cmos_opamp_schematic.png)
+
+## AC Analysis
+
+The AC response of the two-stage CMOS operational amplifier, showing its gain and phase variation with frequency.
+
+![AC Response](ac_response.png)
+
+The simulated low-frequency gain is approximately 44 dB, with a phase margin of 114° at the unity-gain crossover frequency.

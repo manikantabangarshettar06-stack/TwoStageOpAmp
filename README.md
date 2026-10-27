@@ -59,3 +59,8 @@ These values are based on simulation and depend on the circuit configuration and
 - Analysis of amplifier stability and transient performance.
 - Understanding of gain, bandwidth, slew rate, and power trade-offs.
 
+## Circuit Schematic
+
+The complete two-stage CMOS operational amplifier schematic implemented in LTspice.
+
+![Two-Stage CMOS Op-Amp Schematic](cmos_opamp_schematic.png)
